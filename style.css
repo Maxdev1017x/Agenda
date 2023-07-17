@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: rgb(255, 252, 252);
+    padding-top: 100px;
+    background-color: #2f4f4f;
+}
+
+.container {
+    margin:2px auto;
+    padding: auto;
+    max-width: 640px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    align-items: flex-end;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+form input {
+    font-size: 20px;
+    background-color: rgb(227, 228, 230);
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(52, 114, 52);
+    color: aliceblue;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table th {
+    padding: 100px;
+    border-bottom: 2px solid black;
+    padding: 50px;
+    font-size: 18px;
+}
+
+table td {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.quantidade {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+}
